@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-svg" href="CSS/media/assets/logo.svg">
+    <title>Vini</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins&family=Bungee+Outline&dispaly=swap">
+    <link rel="stylesheet" href="CSS/footer.css">
+    <link rel="stylesheet" href="CSS/menu_pages.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header class="menu__wrapper">
+        <div class="menu__bar">
+            <a href="home.html" title="Logo">
+                <img src="CSS/media/assets/logo.svg" alt="logo" class="logo" width="180" height="180">
+            </a>
+            <img class="menu-icon" src="CSS/media/assets/burger-menu.svg" title='Burger Menu' alt='Burger Menu' onclick="toggleMenu(this)">
+            <ul class="navigation">
+                <li>
+                    <a href="about.html" title="ChiSiamo"><i class='bx bx-info-circle'></i> Chi Siamo</a>
+                </li>
+                <li>
+                    <a href="menu.html" title="Menu"><i class='bx bx-restaurant'></i> Menú</a>
+                </li>
+                <li>
+                    <a href="galleria.html" title="Galeria"><i class='bx bx-photo-album' ></i> Galleria</a>
+                </li>
+                <li>
+                    <a href="contatti.html" title="Contattaci"><i class='bx bxs-contact' ></i> Contatti</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <span class="background">
+        <div id="menu" class="menu hidden">
+            <h1>Vini</h1>
+            <!-- veneto -->
+            <h1 style="font-size: 30px; color: #ffccd5;">VENETO-CANTINA PERINI</h1>
+            <br>
+            <div class="articles hidden">
+                <article>
+                    <figure style="height: 350px;">
+                        <img src="CSS/media/menu/vini/valdobbiadene.jpeg" alt="m">
+                    </figure>
+                    <div class="article-preview" style="height: 150px;">
+                        <div class="name">
+                            <h2>Valdobiadine DOCG</h2>
+                            <h3>20,00€</h3>
+                        </div>
+                        <p>secco millesimato</p>
+                    </div>
+                </article>
+                <article>
+                    <figure style="height: 350px;">
+                        <img src="CSS/media/menu/vini/Rose.webp" alt="m">
+                    </figure>
+                    <div class="article-preview" style="height: 150px;">
+                        <div class="name">
+                            <h2>Prosecco Rosé DOCG brut</h2>
+                            <h3>20,00€</h3>
+                        </div>
+                    </div>
+                </article>
+                <article>
+                    <figure style="height: 350px;">
+                        <img src="CSS/media/menu/vini/Cuvee.jpeg" alt="m">
+                    </figure>
+                    <div class="article-preview" style="height: 150px;">
+                        <div class="name">
+                            <h2>Perini cuvée</h2>
+                            <h3>15,00€</h3>
+                        </div>
+                        <p>extra dry millesimato</p>
+                    </div>
+                </article>
+            </div>    
+            <!-- trentino -->
+            <br><br><br>
+            <h1 style="font-size: 30px; color: #ffccd5;">TRENTINO ALTO ADIGE-CANTINA ERSTE NEUE</h1>
+            <br>
+            <h2 class="type">Bianchi:</h2>
+            <div class="articles hidden">
+                <article>
+                    <figure style="height: 350px;">
+                        <img src="CSS/media/menu/vini/white.jpeg" alt="m">
+                    </figure>
+                    <div class="article-preview" style="height: 150px;">
+                        <div class="name">
+                            <h2>White Peak IGT</h2>
+                            <h3>14,00€</h3>
+                        </div>
+                        <p>fruttato</p>
+                    </div>
+                </article>
+                <article>
+                    <figure style="height: 350px;">
+                        <img src="CSS/media/menu/vini/chardonnay-doc.jpeg" alt="m">
+                    </figure>
+                    <div class="article-preview" style="height: 150px;">
+                        <div class="name">
+                            <h2>Chardonnay DOC</h2>
+                            <h3>17,00€</h3>
+                        </div>
+                        <p>secco</p>
+                    </div>
+                </article>
+                <article>
+                    <figure style="height: 350px;">
+                        <img src="CSS/media/menu/vini/gewuerztraminer.jpeg" alt="m">
+                    </figure>
+                    <div class="article-preview" style="height: 150px;">
+                        <div class="name">
+                            <h2>Gewurz Traminer DOC</h2>
+                            <h3>20,00€</h3>
+                        </div>
+                        <p>secco e fruttato</p>
+                    </div>
+                </article>
+                <article>
+                    <figure style="height: 350px;">
+                        <img src="CSS/media/menu/vini/goldmuskateller.jpeg" alt="m">
+                    </figure>
+                    <div class="article-preview" style="height: 150px;">
+                        <div class="name">
+                            <h2>Gold muskateller</h2>
+                            <h3>17,00€</h3>
+                        </div>
+                        <p>moscato giallo, secco, fruttato</p>
+                    </div>
+                </article>
+                <article>
+                    <figure style="height: 350px;">
+                        <img src="CSS/media/menu/vini/black-peak.webp" alt="m">
+                    </figure>
+                    <div class="article-preview" style="height: 150px;">
+                        <div class="name">
+                            <h2>Black peak IGT</h2>
+                            <h3>17,00€</h3>
+                        </div>
+                        <p>rosato fermo</p>
+                    </div>
+                </article>
+            </div>
+            <!-- Neri-->
+            <br><br>
+            <h2 class="type">Neri:</h2>
+            <div class="articles hidden">
+                <article>
+                    <figure style="height: 350px;">
+                        <img src="CSS/media/menu/vini/lagrein.jpeg" alt="m">
+                    </figure>
+                    <div class="article-preview" style="height: 150px;">
+                        <div class="name">
+                            <h2>Lagrein DOC</h2>
+                            <h3>20,00€</h3>
+                        </div>
+                    </div>
+                </article>
+                <article>
+                    <figure style="height: 350px;">
+                        <img src="CSS/media/menu/vini/pinot.jpeg" alt="m">
+                    </figure>
+                    <div class="article-preview" style="height: 150px;">
+                        <div class="name">
+                            <h2>Pinot nero riserva DOC</h2>
+                            <h3>27,00€</h3>
+                        </div>
+                    </div>
+                </article>
+            </div> 
+            <!-- emilia romagna-->
+            <br><br><br>
+            <h1 style="font-size: 30px; color: #ffccd5;">EMILIA ROMAGNA-CANTINA VIRGIL LUIGI</h1>
+            <br>
+            <h2 class="type">Lambrusco:</h2>
+            <div class="articles hidden">
+                <article>
+                    <figure style="height: 350px;">
+                        <img src="CSS/media/menu/vini/loghino-dante-lambrusco.jpg" alt="m">
+                    </figure>
+                    <div class="article-preview" style="height: 130px;">
+                        <div class="name">
+                            <h2>Loghino dante</h2>
+                            <h3>11,00€</h3>
+                        </div>
+                        <p>scuro, morbido, tendente al dolce</p>
+                    </div>
+                </article>
+                <article>
+                    <figure style="height: 350px;">
+                        <img src="CSS/media/menu/vini/pjafoc.jpeg" alt="m">
+                    </figure>
+                    <div class="article-preview" style="height: 130px;">
+                        <div class="name">
+                            <h2>Pjafoc</h2>
+                            <h3>15,00€</h3>
+                        </div>
+                        <p>secco</p>
+                    </div>
+                </article>
+                <article>
+                    <figure style="height: 350px;">
+                        <img src="CSS/media/menu/vini/rays.jpeg" alt="m">
+                    </figure>
+                    <div class="article-preview" style="height: 130px;">
+                        <div class="name">
+                            <h2>Rays</h2>
+                            <h3>18,00€</h3>
+                        </div>
+                        <p>scuro, morbido</p>
+                    </div>
+                </article>
+            </div>
+            <!-- bianco-->
+            <br><br>
+            <h2 class="type">Bianco</h2>
+            <div class="articles hidden">
+                <article>
+                    <figure style="height: 350px;">
+                        <img src="CSS/media/menu/vini/extrawhite.jpeg" alt="m">
+                    </figure>
+                    <div class="article-preview" style="height: 130px;">
+                        <div class="name">
+                            <h2>Pjafoc</h2>
+                            <h3>15,00€</h3>
+                        </div>
+                        <p>spumante extra dry</p>
+                    </div>
+                </article>
+            </div>
+            <!-- Toscana-->
+            <br><br><br>
+            <h1 style="font-size: 30px; color: #ffccd5;">TOSCANA-CANTINA CASTELLI DEL GREVEPESA</h1>
+            <br>
+            <h2 class="type">Rossi fermi:</h2>
+            <div class="articles hidden">
+                <article>
+                    <figure style="height: 350px;">
+                        <img src="CSS/media/menu/vini/pontormo.jpeg" alt="m">
+                    </figure>
+                    <div class="article-preview" style="height: 150px;">
+                        <div class="name">
+                            <h2>Chianti Pontormo DOCG</h2>
+                            <h3>15,00€</h3>
+                        </div>
+                    </div>
+                </article>
+                <article>
+                    <figure style="height: 350px;">
+                        <img src="CSS/media/menu/vini/bolgheri.jpeg" alt="m">
+                    </figure>
+                    <div class="article-preview" style="height: 150px;">
+                        <div class="name">
+                            <h2>Col Silente Bolgheri</h2>
+                            <h3>35,00€</h3>
+                        </div>
+                    </div>
+                </article>
+                <article>
+                    <figure style="height: 350px;">
+                        <img src="CSS/media/menu/vini/clemente.jpeg" alt="m">
+                    </figure>
+                    <div class="article-preview" style="height: 150px;">
+                        <div class="name">
+                            <h2>Clemente VII DOCG</h2>
+                            <h3>25,00€</h3>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <!-- umbria-->
+            <br><br><br>
+            <h1 style="font-size: 30px; color: #ffccd5;">UMBRIA-CANTINA TENUTE BALDO</h1>
+            <br>
+            <div class="articles hidden">
+                <article>
+                    <figure style="height: 350px;">
+                        <img src="CSS/media/menu/vini/torgiano.jpeg" alt="m">
+                    </figure>
+                    <div class="article-preview" style="height: 150px;">
+                        <div class="name">
+                            <h2>Bianco di Torgiano DOC figlio della luna</h2>
+                            <h3>16,00€</h3>
+                        </div>
+                    </div>
+                </article>
+                <article>
+                    <figure style="height: 350px;">
+                        <img src="CSS/media/menu/vini/rossoditorgiano.jpeg" alt="m">
+                    </figure>
+                    <div class="article-preview" style="height: 150px;">
+                        <div class="name">
+                            <h2>Rosso di Torgiano DOC Auravitae</h2>
+                            <h3>15,00€</h3>
+                        </div>
+                    </div>
+                </article>
+                <article>
+                    <figure style="height: 350px;">
+                        <img src="CSS/media/menu/vini/montefalco.webp" alt="m">
+                    </figure>
+                    <div class="article-preview" style="height: 150px;">
+                        <div class="name">
+                            <h2>Montefalco Sagrantino DOCG</h2>
+                            <h3>28,00€</h3>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <!-- Puglia-->
+            <br><br><br>
+            <h1 style="font-size: 30px; color: #ffccd5;">PUGLIA-CANTINA VALVAGLIONE VIGNE</h1>
+            <br>
+            <div class="articles hidden">
+                <article>
+                    <figure style="height: 350px;">
+                        <img src="CSS/media/menu/vini/primadonna.jpeg" alt="m">
+                    </figure>
+                    <div class="article-preview" style="height: 150px;">
+                        <div class="name">
+                            <h2>Chardonnay primadonna IGP</h2>
+                            <h3>20,00€</h3>
+                        </div>
+                    </div>
+                </article>
+                <article>
+                    <figure style="height: 350px;">
+                        <img src="CSS/media/menu/vini/negroamaro.jpeg" alt="m">
+                    </figure>
+                    <div class="article-preview" style="height: 150px;">
+                        <div class="name">
+                            <h2>Negroamaro del Salento IGP</h2>
+                            <h3>18,00€</h3>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <br><br><br>
+        </div>
+   </span>
+   <footer>
+    <div class="footer-weapper">
+        <section class="footer-top">
+            <a href="home.html" title="Logo">
+                <img src="CSS/media/assets/logo.svg" alt="bishop" class="logoF">
+            </a>
+            <span class="social-links">
+                <a href="#">
+                    <img src="CSS/media/assets/instagram.svg" alt="instagram">
+                </a>
+                <a href="#">
+                    <img src="CSS/media/assets/twitterx.svg" alt="twitter">
+                </a>
+                <a href="#">
+                    <img src="CSS/media/assets/linkedin.svg" alt="linkedin" style="color: white;">
+                </a>
+                <a href="#">
+                    <img src="CSS/media/assets/facebook.svg" alt="facebook" style="color: white;">
+                </a>
+            </span>
+        </section>
+        <section class="footer-collumns">
+            <section>
+                <ul>
+                    <h3>Menú:</h3>
+                    <a href="pizze.html">
+                        <li>Pizze</li>
+                    </a>
+                    <a href="antipasti.html">
+                        <li>Antipasti</li>
+                    </a>
+                    <a href="primi.html">
+                        <li>Primi</li>
+                    </a>
+                    <a href="secondi.html">
+                        <li>Secondi</li>
+                    </a>
+                    <a href="bevande.html">
+                        <li>Bevande</li>
+                    </a>
+                    <a href="vini.html">
+                        <li>Vini</li>
+                    </a>
+                    <a href="dolci.html">
+                        <li>Dolci</li>
+                    </a>
+                </ul>
+            </section>
+            <section>
+                <ul>
+                    <h3>Orari:</h3>
+                    <li>Lunedí 18:30-00</li>
+                    <li>Martedí 18:30-00</li>
+                    <li>Mercoledí 18:30-00</li>
+                    <li>Giovedí 18:30-00</li>
+                    <li>Venerdí 18:30-04</li>
+                    <li>Sabato 18:30-02</li>
+                    <li>Domenica 18:30-00</li>
+                </ul>
+            </section>
+            <section>
+                <ul>
+                    <h3>Contatti:</h3>
+                    <li><i class='bx bxs-phone' ></i> 059634276</li>
+                    <li> <i class='bx bx-envelope' ></i>escape@matrix.it</li>
+                    <li><i class='bx bx-location-plus' ></i> Via Abà, 238, 41021 Fanano MO</li>
+                </ul>
+            </section>
+        </section>
+        <section class="footer-bottom">
+            <small>@ CConsulting. <span id="year"></span>, All right reserved</small>
+            <span class="footer-bottom-links">
+                <a href="#" title="Terms and services">Terms and Services</a>
+                <a href="#" title="Privacy Policy">Privacy Policy</a>
+            </span>
+        </section>
+    </div>
+    </footer>
+    <a href="https://api.whatsapp.com/send?phone=3515711373&text=Escape the matrix" class="wa-link">
+        <img src="CSS/media/assets/whatsapp.svg" alt="whatsapp">
+    </a>
+   <script src="JS/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-svg" href="CSS/media/assets/logo.svg">
+    <title>Contatti</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins&family=Bungee+Outline&dispaly=swap">
+    <link rel="stylesheet" href="CSS/footer.css">
+    <link rel="stylesheet" href="CSS/contatti.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header class="menu__wrapper">
+        <div class="menu__bar">
+            <a href="home.html" title="Logo">
+                <img src="CSS/media/assets/logo.svg" alt="logo" class="logo" width="180" height="180">
+            </a>
+            <img class="menu-icon" src="CSS/media/assets/burger-menu.svg" title='Burger Menu' alt='Burger Menu' onclick="toggleMenu(this)">
+            <ul class="navigation">
+                <li>
+                    <a href="about.html" title="ChiSiamo"><i class='bx bx-info-circle'></i> Chi Siamo</a>
+                </li>
+                <li>
+                    <a href="menu.html" title="Menu"><i class='bx bx-restaurant'></i> Menú</a>
+                </li>
+                <li>
+                    <a href="galleria.html" title="Galeria"><i class='bx bx-photo-album' ></i> Galleria</a>
+                </li>
+                <li>
+                    <a href="contatti.html" title="Contattaci"><i class='bx bxs-contact' ></i> Contatti</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <main id="background" class="background">
+        <div class="content" id="content">
+            <div class="left-bar hidden">
+                
+                <section class="contact">
+                    <h2>Contattaci</h2>
+                    <ul>
+                        <li><i class='bx bxs-phone' ></i> - 05962458</li>
+                        <li><i class='bx bx-envelope' ></i>- info@lunatika.it</li>
+                        <li><i class='bx bx-location-plus' ></i>- Via Abà, 238, 41021 Fanano MO</li>
+                    </ul>
+                </section>
+                <form class="sendmessage" method="post" action="php/send-email.php">
+                    <h2>Mandaci un messaggio</h2>
+                    <input type="text" name="name" placeholder="Nome" required>
+                    <input type="email" name="email" placeholder="Email" required>
+                    <textarea name="message" cols="30" rows="8" placeholder="messaggio" required ></textarea>
+                    <span class="privacy">
+                        <input type="checkbox" required>
+                        <p>Ho letto e accetto l'informativa privacy</p>
+                    </span>
+                    <span class="sendbuttons">
+                        <button type="submit" style="margin-bottom: 15px;">
+                            <div class="svg-wrapper-1">
+                              <div class="svg-wrapper">
+                                <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                  <path d="M0 0h24v24H0z" fill="none"></path>
+                                  <path d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z" fill="currentColor"></path>
+                                </svg>
+                              </div>
+                            </div>
+                            <span>Invia</span>
+                        </button>
+                        <a href="https://www.google.com/search?client=safari&rls=en&q=lunati.ka&ie=UTF-8&oe=UTF-8#ip=1&lrd=0x132aa30308733059:0x4fa106dd8495dcec,3,,,,">
+                            <button>Scrivi una Recensione</button>
+                        </a>
+                    </span>
+                </form>
+                <section class="social">
+                    <h2>Seguici</h2>
+                    <span>
+
+                        <a href="#">
+                            <img src="CSS/media/assets/instagram.svg" alt="instagram">
+                        </a>
+                        <a href="#">
+                            <img src="CSS/media/assets/twitterx.svg" alt="twitter">
+                        </a>
+                        <a href="#">
+                            <img src="CSS/media/assets/linkedin.svg" alt="linkedin">
+                        </a>
+                        <a href="#">
+                            <img src="CSS/media/assets/facebook.svg" alt="facebook">
+                        </a>
+                    </span>
+                </section>
+
+            </div>
+            <iframe id="maps" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5719.95730972233!2d10.787471364082359!3d44.20750600278811!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132aa30308733059%3A0x4fa106dd8495dcec!2sLunati.Ka!5e0!3m2!1sit!2sit!4v1694086317755!5m2!1sit!2sit"
+             allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </main>
+   <footer>
+    <div class="footer-weapper">
+        <section class="footer-top">
+            <a href="home.html" title="Logo">
+                <img src="CSS/media/assets/logo.svg" alt="bishop" class="logoF">
+            </a>
+            <span class="social-links">
+                <a href="#">
+                    <img src="CSS/media/assets/instagram.svg" alt="instagram">
+                </a>
+                <a href="#">
+                    <img src="CSS/media/assets/twitterx.svg" alt="twitter">
+                </a>
+                <a href="#">
+                    <img src="CSS/media/assets/linkedin.svg" alt="linkedin" >
+                </a>
+                <a href="#">
+                    <img src="CSS/media/assets/facebook.svg" alt="facebook" >
+                </a>
+            </span>
+        </section>
+        <section class="footer-collumns">
+            <section>
+                <ul>
+                    <h3>Menú:</h3>
+                    <a href="pizze.html">
+                        <li>Pizze</li>
+                    </a>
+                    <a href="antipasti.html">
+                        <li>Antipasti</li>
+                    </a>
+                    <a href="primi.html">
+                        <li>Primi</li>
+                    </a>
+                    <a href="secondi.html">
+                        <li>Secondi</li>
+                    </a>
+                    <a href="bevande.html">
+                        <li>Bevande</li>
+                    </a>
+                    <a href="vini.html">
+                        <li>Vini</li>
+                    </a>
+                    <a href="dolci.html">
+                        <li>Dolci</li>
+                    </a>
+                </ul>
+            </section>
+            <section>
+                <ul>
+                    <h3>Orari:</h3>
+                    <li>Lunedí 18:30-00</li>
+                    <li>Martedí 18:30-00</li>
+                    <li>Mercoledí 18:30-00</li>
+                    <li>Giovedí 18:30-00</li>
+                    <li>Venerdí 18:30-04</li>
+                    <li>Sabato 18:30-02</li>
+                    <li>Domenica 18:30-00</li>
+                </ul>
+            </section>
+            <section>
+                <ul>
+                    <h3>Contatti:</h3>
+                    <li><i class='bx bxs-phone' ></i> 059634276</li>
+                    <li> <i class='bx bx-envelope' ></i>escape@matrix.it</li>
+                    <li><i class='bx bx-location-plus' ></i> Via Abà, 238, 41021 Fanano MO</li>
+                </ul>
+            </section>
+        </section>
+        <section class="footer-bottom">
+            <small>@ CConsulting. <span id="year"></span>, All right reserved</small>
+            <span class="footer-bottom-links">
+                <a href="#" title="Terms and services">Terms and Services</a>
+                <a href="#" title="Privacy Policy">Privacy Policy</a>
+            </span>
+        </section>
+    </div>
+    </footer>
+    <a href="https://api.whatsapp.com/send?phone=3515711373&text=Escape the matrix" class="wa-link">
+        <img src="CSS/media/assets/whatsapp.svg" alt="whatsapp">
+    </a>
+    <script src="JS/script.js"></script>
+   <script>
+        let check = false;
+        // Funzione per spostare l'elemento
+        function spostaElemento() {
+           // Identifica l'elemento, il genitore di origine e il genitore di destinazione
+           const elementoDaSpostare = document.getElementById("maps");
+           const genitoreOrigine = document.getElementById("content");
+           const genitoreDestinazione = document.getElementById("background");
+           // Verifica la larghezza massima della finestra
+           if (window.innerWidth <= 600 && !check) {
+               // Rimuovi l'elemento dal genitore di origine
+               genitoreOrigine.removeChild(elementoDaSpostare);
+               check = true;
+               // Aggiungi l'elemento al genitore di destinazione
+               genitoreDestinazione.appendChild(elementoDaSpostare);
+           }else {
+               // Altrimenti, ripristina l'elemento nella sua posizione originale
+               if (check) {
+                   genitoreDestinazione.removeChild(elementoDaSpostare);
+                   genitoreOrigine.appendChild(elementoDaSpostare);
+                   check = false;
+               }
+           }
+        }       
+        // Richiama la funzione all'avvio della pagina e all'evento di ridimensionamento della finestra
+        window.onload = spostaElemento;
+        window.addEventListener("resize", spostaElemento);
+   </script>
+</body>
+</html>

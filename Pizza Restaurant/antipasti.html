@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-svg" href="CSS/media/assets/logo.svg">
+    <title>Antipasti</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins&family=Bungee+Outline&dispaly=swap">
+    <link rel="stylesheet" href="CSS/footer.css">
+    <link rel="stylesheet" href="CSS/menu_pages.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header class="menu__wrapper">
+        <div class="menu__bar">
+            <a href="home.html" title="Logo">
+                <img src="CSS/media/assets/logo.svg" alt="logo" class="logo" width="180" height="180">
+            </a>
+            <img class="menu-icon" src="CSS/media/assets/burger-menu.svg" title='Burger Menu' alt='Burger Menu' onclick="toggleMenu(this)">
+            <ul class="navigation">
+                <li>
+                    <a href="about.html" title="ChiSiamo"><i class='bx bx-info-circle'></i> Chi Siamo</a>
+                </li>
+                <li>
+                    <a href="menu.html" title="Menu"><i class='bx bx-restaurant'></i> Menú</a>
+                </li>
+                <li>
+                    <a href="galleria.html" title="Galeria"><i class='bx bx-photo-album' ></i> Galleria</a>
+                </li>
+                <li>
+                    <a href="contatti.html" title="Contattaci"><i class='bx bxs-contact' ></i> Contatti</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <span class="background">
+        <div id="menu" class="menu hidden">
+            <h1>Antipasti</h1>
+            <!-- Taglieri -->
+            <h2 class="type">Taglieri:</h2>
+            <div class="articles hidden">
+                <article>
+                    <figure>
+                        <img src="CSS/media/menu/antipasti/tagliere.jpeg" alt="m">
+                    </figure>
+                    <div class="article-preview" style="height: 170px;">
+                        <div class="name">
+                            <h2>Gustoso</h2>
+                            <h3>15,00€</h3>
+                        </div>
+                        <p>- Lonzardo, Cuore di culatello cotto, Crudo di Parma, stria, fantasia di sott'oli.</p>
+                    </div>
+                </article>
+                <article>
+                    <figure>
+                        <img src="CSS/media/menu/antipasti/tagliere.jpeg" alt="m">
+                    </figure>
+                    <div class="article-preview" style="height: 170px;">
+                        <div class="name">
+                            <h2>Heidi</h2>
+                            <h3>15,00€</h3>
+                        </div>
+                        <p>- Pecorino sardo, misto, parmigiano reggiano, cipolline in agrolodoloce, marmellate.</p>
+                    </div>
+                </article>
+                <article>
+                    <figure>
+                        <img src="CSS/media/menu/antipasti/tagliere.jpeg" alt="m">
+                    </figure>
+                    <div class="article-preview" style="height: 170px;">
+                        <div class="name">
+                            <h2>Appennino</h2>
+                            <h3>15,00€</h3>
+                        </div>
+                        <p>- Lonzardo, Cuore di culatello cotto, pancetta, speck, crudo di Parma, grissini, Formaggi misti, fantasia di sottoli.</p>
+                    </div>
+                </article>
+            </div>
+            <!-- Bruschette -->
+            <br><br><br>
+            <h2 class="type">Bruschette:</h2>
+            <div class="articles hidden">
+                <article>
+                    <figure>
+                        <img src="CSS/media/menu/antipasti/bruschette.avif" alt="m">
+                    </figure>
+                    <div class="article-preview" style="height: 180px;">
+                        <div class="name">
+                            <h2>Del Cantabrico</h2>
+                            <h3>9,00€</h3>
+                        </div>
+                        <p>- pane casereccio, burrata, alici del Cantabrico, pomodori secchi.</p>
+                    </div>
+                </article>
+                <article>
+                    <figure>
+                        <img src="CSS/media/menu/antipasti/bruschette.avif" alt="m">
+                    </figure>
+                    <div class="article-preview" style="height: 180px;">
+                        <div class="name">
+                            <h2>Ape Maya</h2>
+                            <h3>8,00€</h3>
+                        </div>
+                        <p>- pane casereccio, fichi/lamponi, stracciatella, pancetta, miele.</p>
+                    </div>
+                </article>
+                <article>
+                    <figure>
+                        <img src="CSS/media/menu/antipasti/bruschette.avif" alt="m">
+                    </figure>
+                    <div class="article-preview" style="height: 180px;">
+                        <div class="name" >
+                            <h2>Ai pomodorini</h2>
+                            <h3>7,50€</h3>
+                        </div>
+                        <p>- pane casereccio, pomodorini, aglio, prezzemolo.</p>
+                    </div>
+                </article>
+                <article>
+                    <figure>
+                        <img src="CSS/media/menu/antipasti/bruschette.avif" alt="m">
+                    </figure>
+                    <div class="article-preview" style="height: 180px;">
+                        <div class="name">
+                            <h2>Ai funghi porcini</h2>
+                            <h3>9,00€</h3>
+                        </div>
+                        <p>- pane casereccio, funghi porcini.</p>
+                    </div>
+                </article>
+            </div>
+            <!-- Altri -->
+            <br><br><br>
+            <h2 class="type">Altri:</h2>
+            <div class="articles hidden">    
+                <article>
+                    <figure>
+                        <img src="CSS/media/menu/antipasti/rosellina.avif" alt="m">
+                    </figure>
+                    <div class="article-preview" style="height: 170px;">
+                        <div class="name">
+                            <h2>Roselline di bresaola dal cuore morbido</h2>
+                            <h3>8,00€</h3>
+                        </div>
+                        <p>- bresaola, ricotta, rucola, pistacchio</p>
+                    </div>
+                </article>
+                <article>
+                    <figure>
+                        <img src="CSS/media/menu/antipasti/bresaola.avif" alt="m">
+                    </figure>
+                    <div class="article-preview" style="height: 170px;">
+                        <div class="name">
+                            <h2>Carpaccio di bresaola</h2>
+                            <h3>10,00€</h3>
+                        </div>
+                        <p>- bresaola, rucola, scaglie di parmigiano, perle di aceto balsamico.</p>
+                    </div>
+                </article>
+                <article>
+                    <figure>
+                        <img src="CSS/media/menu/antipasti/perro.avif" alt="m">
+                    </figure>
+                    <div class="article-preview" style="height: 170px;">
+                        <div class="name">
+                            <h2>PEEERÒ...</h2>
+                            <h3>8,00€</h3>
+                        </div>
+                        <p>- pere, prosciutto crudo, gorgonzola, rucola.</p>
+                    </div>
+                </article>
+                <article>
+                    <figure>
+                        <img src="CSS/media/menu/antipasti/grissini.avif" alt="m">
+                    </figure>
+                    <div class="article-preview" style="height: 170px;">
+                        <div class="name">
+                            <h2>La luna sul cucchiaio</h2>
+                            <h3>7,00€</h3>
+                        </div>
+                        <p>- crema di ceci, speck croccante, grissini.</p>
+                    </div>
+                </article>
+            </div>
+            <br><br><br>
+        </div>
+    </span>
+    <footer>
+        <div class="footer-weapper">
+            <section class="footer-top">
+                <a href="home.html" title="Logo">
+                    <img src="CSS/media/assets/logo.svg" alt="bishop" class="logoF">
+                </a>
+                <span class="social-links">
+                    <a href="#">
+                        <img src="CSS/media/assets/instagram.svg" alt="instagram">
+                    </a>
+                    <a href="#">
+                        <img src="CSS/media/assets/twitterx.svg" alt="twitter">
+                    </a>
+                    <a href="#">
+                        <img src="CSS/media/assets/linkedin.svg" alt="linkedin" style="color: white;">
+                    </a>
+                    <a href="#">
+                        <img src="CSS/media/assets/facebook.svg" alt="facebook" style="color: white;">
+                    </a>
+                </span>
+            </section>
+            <section class="footer-collumns">
+                <section>
+                    <ul>
+                        <h3>Menú:</h3>
+                        <a href="pizze.html">
+                            <li>Pizze</li>
+                        </a>
+                        <a href="antipasti.html">
+                            <li>Antipasti</li>
+                        </a>
+                        <a href="primi.html">
+                            <li>Primi</li>
+                        </a>
+                        <a href="secondi.html">
+                            <li>Secondi</li>
+                        </a>
+                        <a href="bevande.html">
+                            <li>Bevande</li>
+                        </a>
+                        <a href="vini.html">
+                            <li>Vini</li>
+                        </a>
+                        <a href="dolci.html">
+                            <li>Dolci</li>
+                        </a>
+                    </ul>
+                </section>
+                <section>
+                    <ul>
+                        <h3>Orari:</h3>
+                        <li>Lunedí 18:30-00</li>
+                        <li>Martedí 18:30-00</li>
+                        <li>Mercoledí 18:30-00</li>
+                        <li>Giovedí 18:30-00</li>
+                        <li>Venerdí 18:30-04</li>
+                        <li>Sabato 18:30-02</li>
+                        <li>Domenica 18:30-00</li>
+                    </ul>
+                </section>
+                <section>
+                    <ul>
+                        <h3>Contatti:</h3>
+                        <li><i class='bx bxs-phone' ></i> 059634276</li>
+                        <li> <i class='bx bx-envelope' ></i>escape@matrix.it</li>
+                        <li><i class='bx bx-location-plus' ></i> Via Abà, 238, 41021 Fanano MO</li>
+                    </ul>
+                </section>
+            </section>
+            <section class="footer-bottom">
+                <small>@ CConsulting. <span id="year"></span>, All right reserved</small>
+                <span class="footer-bottom-links">
+                    <a href="#" title="Terms and services">Terms and Services</a>
+                    <a href="#" title="Privacy Policy">Privacy Policy</a>
+                </span>
+            </section>
+        </div>
+   </footer>
+   <a href="https://api.whatsapp.com/send?phone=3515711373&text=Escape the matrix" class="wa-link">
+    <img src="CSS/media/assets/whatsapp.svg" alt="whatsapp">
+  </a>
+   <script src="JS/script.js"></script>
+</body>
+</html>

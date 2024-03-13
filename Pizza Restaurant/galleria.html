@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-svg" href="CSS/media/assets/logo.svg">
+    <title>Galleria</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins&family=Bungee+Outline&dispaly=swap">
+    <link rel="stylesheet" href="CSS/footer.css">
+    <link rel="stylesheet" href="CSS/galleria.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header class="menu__wrapper">
+        <div class="menu__bar">
+            <a href="home.html" title="Logo">
+                <img src="CSS/media/assets/logo.svg" alt="logo" class="logo" width="180" height="180">
+            </a>
+            <img class="menu-icon" src="CSS/media/assets/burger-menu.svg" title='Burger Menu' alt='Burger Menu' onclick="toggleMenu(this)">
+            <ul class="navigation">
+                <li>
+                    <a href="about.html" title="ChiSiamo"><i class='bx bx-info-circle'></i> Chi Siamo</a>
+                </li>
+                <li>
+                    <a href="menu.html" title="Menu"><i class='bx bx-restaurant'></i> Menú</a>
+                </li>
+                <li>
+                    <a href="galleria.html" title="Galeria"><i class='bx bx-photo-album' ></i> Galleria</a>
+                </li>
+                <li>
+                    <a href="contatti.html" title="Contattaci"><i class='bx bxs-contact' ></i> Contatti</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <br><br><br>
+    <main class="page_content">
+        <h1 class="hidden">LUNATI.KA</h1>
+        <div class="gallery hidden">
+            <img src="CSS/media/galleria/IMG_18.jpeg" alt="IMG" class="gallery__image">
+            <img src="CSS/media/galleria/IMG_2.jpeg" alt="IMG" class="gallery__image">
+            <img src="CSS/media/galleria/IMG_3.jpeg" alt="IMG" class="gallery__image">
+            <img src="CSS/media/galleria/IMG_10.jpeg" alt="IMG" class="gallery__image">
+            <img src="CSS/media/galleria/IMG_9.jpg" alt="IMG" class="gallery__image">
+            <img src="CSS/media/galleria/IMG_1.jpg" alt="IMG" class="gallery__image">
+            <img src="CSS/media/galleria/IMG_28.jpeg" alt="IMG" class="gallery__image">
+            <img src="CSS/media/galleria/IMG_14.jpeg" alt="IMG" class="gallery__image">
+            <img src="CSS/media/galleria/IMG_13.jpeg" alt="IMG" class="gallery__image">
+            <img src="CSS/media/galleria/IMG_20.jpeg" alt="IMG" class="gallery__image">
+            <img src="CSS/media/galleria/IMG_26.jpeg" alt="IMG" class="gallery__image">
+            <img src="CSS/media/galleria/IMG_27.jpeg" alt="IMG" class="gallery__image">
+            <img src="CSS/media/galleria/IMG_6.jpg" alt="IMG" class="gallery__image">
+            <img src="CSS/media/galleria/IMG_24.jpeg" alt="IMG" class="gallery__image">
+            <img src="CSS/media/galleria/IMG_19.jpg" alt="IMG" class="gallery__image">
+            <img src="CSS/media/galleria/IMG_8.jpg" alt="IMG" class="gallery__image">
+            <img src="CSS/media/galleria/IMG_12.jpg" alt="IMG" class="gallery__image">
+            <img src="CSS/media/galleria/IMG_22.jpeg" alt="IMG" class="gallery__image">
+            <img src="CSS/media/galleria/IMG_4.jpeg" alt="IMG" class="gallery__image">
+            <img src="CSS/media/galleria/IMG_5.jpg" alt="IMG" class="gallery__image">
+            <img src="CSS/media/galleria/IMG_11.jpg" alt="IMG" class="gallery__image">
+            <img src="CSS/media/galleria/IMG_23.jpeg" alt="IMG" class="gallery__image">
+            <img src="CSS/media/galleria/IMG_25.jpg" alt="IMG" class="gallery__image">
+            <img src="CSS/media/galleria/IMG_7.jpg" alt="IMG" class="gallery__image">
+            <img src="CSS/media/galleria/IMG_16.jpeg" alt="IMG" class="gallery__image">
+            <img src="CSS/media/galleria/IMG_15.jpeg" alt="IMG" class="gallery__image">
+        </div>
+
+        <div class="lightbox-container">
+
+            <div class="img-container">
+
+              <div role="button" class="lightbox-btn lightbox-btn--prev"><svg width="36px" height="36px" class="svg--nav" viewBox="0 0 24 24"><path d="M15.41 16.09l-4.58-4.59 4.58-4.59L14 5.5l-6 6 6 6z"></path></svg></div>
+              <div role="button" class="lightbox-btn lightbox-btn--next"><svg width="36px" height="36px" class="svg--nav" viewBox="0 0 24 24"><path d="M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z"></path></svg></div>
+              <div role="button" class="lightbox-btn lightbox-btn--cls">
+                <svg width="20" height="20" id="svg-cls" viewBox="0 0 13.426 13.423">
+                  <path  data-name="Icon ionic-ios-close" d="M19.589,18l4.8-4.8A1.124,1.124,0,0,0,22.8,11.616l-4.8,4.8-4.8-4.8A1.124,1.124,0,1,0,11.616,13.2l4.8,4.8-4.8,4.8A1.124,1.124,0,0,0,13.2,24.384l4.8-4.8,4.8,4.8A1.124,1.124,0,1,0,24.384,22.8Z" transform="translate(-11.285 -11.289)"/>
+                </svg>
+              </div>
+              <img class="lightbox-img" src="" alt="Image" />
+
+            </div>
+          </div>
+
+    </main>
+   <footer>
+    <div class="footer-weapper">
+        <section class="footer-top">
+            <a href="home.html" title="Logo">
+                <img src="CSS/media/assets/logo.svg" alt="bishop" class="logoF">
+            </a>
+            <span class="social-links">
+                <a href="#">
+                    <img src="CSS/media/assets/instagram.svg" alt="instagram">
+                </a>
+                <a href="#">
+                    <img src="CSS/media/assets/twitterx.svg" alt="twitter">
+                </a>
+                <a href="#">
+                    <img src="CSS/media/assets/linkedin.svg" alt="linkedin">
+                </a>
+                <a href="#">
+                    <img src="CSS/media/assets/facebook.svg" alt="facebook">
+                </a>
+            </span>
+        </section>
+        <section class="footer-collumns">
+            <section>
+                <ul>
+                    <h3>Menú:</h3>
+                    <a href="pizze.html">
+                        <li>Pizze</li>
+                    </a>
+                    <a href="antipasti.html">
+                        <li>Antipasti</li>
+                    </a>
+                    <a href="primi.html">
+                        <li>Primi</li>
+                    </a>
+                    <a href="secondi.html">
+                        <li>Secondi</li>
+                    </a>
+                    <a href="bevande.html">
+                        <li>Bevande</li>
+                    </a>
+                    <a href="vini.html">
+                        <li>Vini</li>
+                    </a>
+                    <a href="dolci.html">
+                        <li>Dolci</li>
+                    </a>
+                </ul>
+            </section>
+            <section>
+                <ul>
+                    <h3>Orari:</h3>
+                    <li>Lunedí 18:30-00</li>
+                    <li>Martedí 18:30-00</li>
+                    <li>Mercoledí 18:30-00</li>
+                    <li>Giovedí 18:30-00</li>
+                    <li>Venerdí 18:30-04</li>
+                    <li>Sabato 18:30-02</li>
+                    <li>Domenica 18:30-00</li>
+                </ul>
+            </section>
+            <section>
+                <ul>
+                    <h3>Contatti:</h3>
+                    <li><i class='bx bxs-phone' ></i> 059634276</li>
+                    <li> <i class='bx bx-envelope' ></i>escape@matrix.it</li>
+                    <li><i class='bx bx-location-plus' ></i> Via Abà, 238, 41021 Fanano MO</li>
+                </ul>
+            </section>
+        </section>
+        <section class="footer-bottom">
+            <small>@ CConsulting. <span id="year"></span>, All right reserved</small>
+            <span class="footer-bottom-links">
+                <a href="#" title="Terms and services">Terms and Services</a>
+                <a href="#" title="Privacy Policy">Privacy Policy</a>
+            </span>
+        </section>
+    </div>
+    </footer>
+    <a href="https://api.whatsapp.com/send?phone=3515711373&text=Escape the matrix" class="wa-link">
+        <img src="CSS/media/assets/whatsapp.svg" alt="whatsapp">
+    </a>
+    <script src="JS/galleria.js"></script>
+</body>
+</html>

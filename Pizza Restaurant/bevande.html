@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-svg" href="CSS/media/assets/logo.svg">
+    <title>Bevande</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins&family=Bungee+Outline&dispaly=swap">
+    <link rel="stylesheet" href="CSS/footer.css">
+    <link rel="stylesheet" href="CSS/menu_pages.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header class="menu__wrapper">
+        <div class="menu__bar">
+            <a href="home.html" title="Logo">
+                <img src="CSS/media/assets/logo.svg" alt="logo" class="logo" width="180" height="180">
+            </a>
+            <img class="menu-icon" src="CSS/media/assets/burger-menu.svg" title='Burger Menu' alt='Burger Menu' onclick="toggleMenu(this)">
+            <ul class="navigation">
+                <li>
+                    <a href="about.html" title="ChiSiamo"><i class='bx bx-info-circle'></i> Chi Siamo</a>
+                </li>
+                <li>
+                    <a href="menu.html" title="Menu"><i class='bx bx-restaurant'></i> Menú</a>
+                </li>
+                <li>
+                    <a href="galleria.html" title="Galeria"><i class='bx bx-photo-album' ></i> Galleria</a>
+                </li>
+                <li>
+                    <a href="contatti.html" title="Contattaci"><i class='bx bxs-contact' ></i> Contatti</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <span class="background">
+        <div id="menu" class="menu hidden">
+            <h1>Bevande</h1>
+            <div class="articles hidden">
+                <article>
+                    <figure style="height: 250px;">
+                        <img src="CSS/media/menu/bevande/naturale.avif" alt="m">
+                    </figure>
+                    <div class="article-preview" style="height: 120px;">
+                        <div class="name">
+                            <h2>Acqua minerale naturale</h2>
+                            <h3>2,50€</h3>
+                        </div>
+                    </div>
+                </article>
+                <article>
+                    <figure style="height: 250px;">
+                        <img src="CSS/media/menu/bevande/naturale.avif" alt="m">
+                    </figure>
+                    <div class="article-preview" style="height: 120px;">
+                        <div class="name">
+                            <h2>Acqua frizzante</h2>
+                            <h3>2,50€</h3>
+                        </div>
+                    </div>
+                </article>
+                <article>
+                    <figure style="height: 250px;">
+                        <img src="CSS/media/menu/bevande/cocacola.avif" alt="m">
+                    </figure>
+                    <div class="article-preview" style="height: 120px;">
+                        <div class="name">
+                            <h2>Coca-cola</h2>
+                            <h3>3,00€</h3>
+                        </div>
+                        <p>Bottiglia di vetro 33cl</p>
+                    </div>
+                </article>
+                <article>
+                    <figure style="height: 250px;">
+                        <img src="CSS/media/menu/bevande/cocacola.avif" alt="m">
+                    </figure>
+                    <div class="article-preview" style="height: 120px;">
+                        <div class="name">
+                            <h2>Coca-cola</h2>
+                            <h3>7,00€</h3>
+                        </div>
+                        <p>Bottiglia grande 1 Lt</p>
+                    </div>
+                </article>
+                <article>
+                    <figure style="height: 250px;">
+                        <img src="CSS/media/menu/bevande/cocacola.avif" alt="m">
+                    </figure>
+                    <div class="article-preview" style="height: 120px;">
+                        <div class="name">
+                            <h2>Coca-cola</h2>
+                            <h3>7,00€</h3>
+                        </div>
+                        <p>Zero, bottiglia grande 1 Lt</p>
+                    </div>
+                </article>
+                <article>
+                    <figure style="height: 250px;">
+                        <img src="CSS/media/menu/bevande/fanta.avif" alt="m">
+                    </figure>
+                    <div class="article-preview" style="height: 120px;">
+                        <div class="name">
+                            <h2>Fanta</h2>
+                            <h3>3,00€</h3>
+                        </div>
+                    </div>
+                </article>
+                <article>
+                    <figure style="height: 250px;">
+                        <img src="CSS/media/menu/bevande/lemonsoda.avif" alt="m">
+                    </figure>
+                    <div class="article-preview" style="height: 120px;">
+                        <div class="name">
+                            <h2>Lemon soda</h2>
+                            <h3>3,00€</h3>
+                        </div>
+                    </div>
+                </article>
+                <article>
+                    <figure style="height: 250px;">
+                        <img src="CSS/media/menu/bevande/sprite.jpeg" alt="m">
+                    </figure>
+                    <div class="article-preview" style="height: 120px;">
+                        <div class="name">
+                            <h2>Sprite</h2>
+                            <h3>3,00€</h3>
+                        </div>
+                    </div>
+                </article>
+                <article>
+                    <figure style="height: 250px;">
+                        <img src="CSS/media/menu/bevande/fuztea.avif" alt="m">
+                    </figure>
+                    <div class="article-preview" style="height: 120px;">
+                        <div class="name">
+                            <h2>Fuz tea</h2>
+                            <h3>3,00€</h3>
+                        </div>
+                    </div>
+                </article>
+                <article>
+                    <figure style="height: 250px;">
+                        <img src="CSS/media/menu/bevande/the.webp" alt="m">
+                    </figure>
+                    <div class="article-preview" style="height: 120px;">
+                        <div class="name">
+                            <h2>Esta-The al limone / pesca</h2>
+                            <h3>3,00€</h3>
+                        </div>
+                    </div>
+                </article>
+                <article>
+                    <figure style="height: 250px;">
+                        <img src="CSS/media/menu/bevande/campari.avif" alt="m">
+                    </figure>
+                    <div class="article-preview" style="height: 120px;">
+                        <div class="name">
+                            <h2>Campari</h2>
+                            <h3>3,00€</h3>
+                        </div>
+                    </div>
+                </article>
+                <article>
+                    <figure style="height: 250px;">
+                        <img src="CSS/media/menu/bevande/redbull.jpeg" alt="m">
+                    </figure>
+                    <div class="article-preview" style="height: 120px;">
+                        <div class="name">
+                            <h2>Red Bull</h2>
+                            <h3>3,50€</h3>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <!-- Birre -->
+            <br>
+            <h1>Birre</h1>
+            <br>
+            <div class="articles hidden">
+                <article>
+                    <figure style="height: 250px;">
+                        <img src="CSS/media/menu/bevande/corona.jpg" alt="m">
+                    </figure>
+                    <div class="article-preview" style="height: 120px;">
+                        <div class="name">
+                            <h2>Corona 33cl</h2>
+                            <h3>3,50€</h3>
+                        </div>
+                    </div>
+                </article>
+                <article>
+                    <figure style="height: 250px;">
+                        <img src="CSS/media/menu/bevande/heineken.jpeg" alt="m">
+                    </figure>
+                    <div class="article-preview" style="height: 120px;">
+                        <div class="name">
+                            <h2>Heineken 66cl</h2>
+                            <h3>6,00€</h3>
+                        </div>
+                    </div>
+                </article>
+                <article>
+                    <figure style="height: 250px;">
+                        <img src="CSS/media/menu/bevande/silver.jpeg" alt="m">
+                    </figure>
+                    <div class="article-preview" style="height: 120px;">
+                        <div class="name">
+                            <h2>Heineken silver 33cl</h2>
+                            <h3>3,50€</h3>
+                        </div>
+                    </div>
+                </article>
+                <article>
+                    <figure style="height: 250px;">
+                        <img src="CSS/media/menu/bevande/morettifreddo.jpeg" alt="m">
+                    </figure>
+                    <div class="article-preview" style="height: 120px;">
+                        <div class="name">
+                            <h2>Moretti filtrata a freddo 30cl</h2>
+                            <h3>3,50€</h3>
+                        </div>
+                    </div>
+                </article>
+                <article>
+                    <figure style="height: 250px;">
+                        <img src="CSS/media/menu/bevande/ichnusa.jpeg" alt="m">
+                    </figure>
+                    <div class="article-preview" style="height: 120px;">
+                        <div class="name">
+                            <h2>Icnusa non filtrata 50cl</h2>
+                            <h3>5,50€</h3>
+                        </div>
+                    </div>
+                </article>
+                <article>
+                    <figure style="height: 250px;">
+                        <img src="CSS/media/menu/bevande/granata.jpeg" alt="m">
+                    </figure>
+                    <div class="article-preview" style="height: 120px;">
+                        <div class="name">
+                            <h2>Artigianali Granda 33cl</h2>
+                            <h3>4,50€</h3>
+                        </div>
+                    </div>
+                </article>
+                <article>
+                    <figure style="height: 250px;">
+                        <img src="CSS/media/menu/bevande/messina.jpeg" alt="m">
+                    </figure>
+                    <div class="article-preview" style="height: 120px;">
+                        <div class="name">
+                            <h2>Messina 33cl</h2>
+                            <h3>4,50€</h3>
+                        </div>
+                    </div>
+                </article>
+                <article>
+                    <figure style="height: 250px;">
+                        <img src="CSS/media/menu/bevande/ichnusapiccola.png" alt="m">
+                    </figure>
+                    <div class="article-preview" style="height: 120px;">
+                        <div class="name">
+                            <h2>Icnusa 33cl</h2>
+                            <h3>3,50€</h3>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <!-- Birre alla spina-->
+            <br><br><br>
+            <h2 class="type">Birre alla spina:</h2>
+            <div class="articles hidden">
+                <article>
+                    <figure style="height: 250px;">
+                        <img src="CSS/media/menu/bevande/forstpils.avif" alt="m">
+                    </figure>
+                    <div class="article-preview" style="height: 130px;">
+                        <div class="name">
+                            <h2>Forst Pils chiara</h2>
+                            <h3>3,00€</h3>
+                        </div>
+                        <p>piccola 0,20cl</p>
+                    </div>
+                </article>
+                <article>
+                    <figure style="height: 250px;">
+                        <img src="CSS/media/menu/bevande/forstpils.avif" alt="m">
+                    </figure>
+                    <div class="article-preview" style="height: 130px;">
+                        <div class="name">
+                            <h2>Forst Pils chiara</h2>
+                            <h3>5,00€</h3>
+                        </div>
+                        <p>media 0,40cl</p>
+                    </div>
+                </article>
+                <article>
+                    <figure style="height: 250px;">
+                        <img src="CSS/media/menu/bevande/forstpils.avif" alt="m">
+                    </figure>
+                    <div class="article-preview" style="height: 130px;">
+                        <div class="name">
+                            <h2>Forst Pils chiara</h2>
+                            <h3>12,00€</h3>
+                        </div>
+                        <p>1 litro</p>
+                    </div>
+                </article>
+                <article>
+                    <figure style="height: 250px;">
+                        <img src="CSS/media/menu/bevande/forstpils.avif" alt="m">
+                    </figure>
+                    <div class="article-preview" style="height: 130px;">
+                        <div class="name">
+                            <h2>Felsenkeller</h2>
+                            <h3>4,00€</h3>
+                        </div>
+                        <p>non filtrata 0,30cl</p>
+                    </div>
+                </article>
+                <article>
+                    <figure style="height: 250px;">
+                        <img src="CSS/media/menu/bevande/forstpils.avif" alt="m">
+                    </figure>
+                    <div class="article-preview" style="height: 130px;">
+                        <div class="name">
+                            <h2>Felsenkeller</h2>
+                            <h3>13,00€</h3>
+                        </div>
+                        <p>1 litro</p>
+                    </div>
+                </article>
+                <article>
+                    <figure style="height: 250px;">
+                        <img src="CSS/media/menu/bevande/forstpils.avif" alt="m">
+                    </figure>
+                    <div class="article-preview" style="height: 130px;">
+                        <div class="name">
+                            <h2>Weihenstephaner: weiss</h2>
+                            <h3>4,50€</h3>
+                        </div>
+                        <p>piccola 0,30cl</p>
+                    </div>
+                </article>
+                <article>
+                    <figure style="height: 250px;">
+                        <img src="CSS/media/menu/bevande/forstpils.avif" alt="m">
+                    </figure>
+                    <div class="article-preview" style="height: 130px;">
+                        <div class="name">
+                            <h2>Weihenstephaner: weiss</h2>
+                            <h3>6,50€</h3>
+                        </div>
+                        <p>media 0,50cl</p>
+                    </div>
+                </article>
+                <article>
+                    <figure style="height: 250px;">
+                        <img src="CSS/media/menu/bevande/forstpils.avif" alt="m">
+                    </figure>
+                    <div class="article-preview" style="height: 130px;">
+                        <div class="name">
+                            <h2>Weihenstephaner: weiss</h2>
+                            <h3>13,00€</h3>
+                        </div>
+                        <p>1 litro</p>
+                    </div>
+                </article>
+                <article>
+                    <figure style="height: 250px;">
+                        <img src="CSS/media/menu/bevande/rossa.avif" alt="m">
+                    </figure>
+                    <div class="article-preview" style="height: 130px;">
+                        <div class="name">
+                            <h2>Sixtus rossa</h2>
+                            <h3>3,50€</h3>
+                        </div>
+                        <p>piccola 0,20cl</p>
+                    </div>
+                </article>
+                <article>
+                    <figure style="height: 250px;">
+                        <img src="CSS/media/menu/bevande/rossa.avif" alt="m">
+                    </figure>
+                    <div class="article-preview" style="height: 130px;">
+                        <div class="name">
+                            <h2>Sixtus rossa</h2>
+                            <h3>5,50€</h3>
+                        </div>
+                        <p>media 0,40cl</p>
+                    </div>
+                </article><article>
+                    <figure style="height: 250px;">
+                        <img src="CSS/media/menu/bevande/rossa.avif" alt="m">
+                    </figure>
+                    <div class="article-preview" style="height: 130px;">
+                        <div class="name">
+                            <h2>Sixtus rossa</h2>
+                            <h3>3,50€</h3>
+                        </div>
+                        <p>1 litro</p>
+                    </div>
+                </article>
+            </div>
+            <!-- Altri-->
+            <br><br><br>
+            <h2 class="type">Altri:</h2>
+            <div class="articles hidden">
+                <article>
+                    <figure style="height: 250px;">
+                        <img src="CSS/media/menu/bevande/amari.avif" alt="m">
+                    </figure>
+                    <div class="article-preview" style="height: 100px;">
+                        <div class="name">
+                            <h2>Amari</h2>
+                            <h3>3,50€</h3>
+                        </div>
+                    </div>
+                </article>
+                <article>
+                    <figure style="height: 250px;">
+                        <img src="CSS/media/menu/bevande/caffe.avif" alt="m">
+                    </figure>
+                    <div class="article-preview" style="height: 100px;">
+                        <div class="name">
+                            <h2>Caffè</h2>
+                            <h3>1,50€</h3>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <br><br><br>
+        </div>
+   </span>
+   <footer>
+    <div class="footer-weapper">
+        <section class="footer-top">
+            <a href="home.html" title="Logo">
+                <img src="CSS/media/assets/logo.svg" alt="bishop" class="logoF">
+            </a>
+            <span class="social-links">
+                <a href="#">
+                    <img src="CSS/media/assets/instagram.svg" alt="instagram">
+                </a>
+                <a href="#">
+                    <img src="CSS/media/assets/twitterx.svg" alt="twitter">
+                </a>
+                <a href="#">
+                    <img src="CSS/media/assets/linkedin.svg" alt="linkedin" style="color: white;">
+                </a>
+                <a href="#">
+                    <img src="CSS/media/assets/facebook.svg" alt="facebook" style="color: white;">
+                </a>
+            </span>
+        </section>
+        <section class="footer-collumns">
+            <section>
+                <ul>
+                    <h3>Menú:</h3>
+                    <a href="pizze.html">
+                        <li>Pizze</li>
+                    </a>
+                    <a href="antipasti.html">
+                        <li>Antipasti</li>
+                    </a>
+                    <a href="primi.html">
+                        <li>Primi</li>
+                    </a>
+                    <a href="secondi.html">
+                        <li>Secondi</li>
+                    </a>
+                    <a href="bevande.html">
+                        <li>Bevande</li>
+                    </a>
+                    <a href="vini.html">
+                        <li>Vini</li>
+                    </a>
+                    <a href="dolci.html">
+                        <li>Dolci</li>
+                    </a>
+                </ul>
+            </section>
+            <section>
+                <ul>
+                    <h3>Orari:</h3>
+                    <li>Lunedí 18:30-00</li>
+                    <li>Martedí 18:30-00</li>
+                    <li>Mercoledí 18:30-00</li>
+                    <li>Giovedí 18:30-00</li>
+                    <li>Venerdí 18:30-04</li>
+                    <li>Sabato 18:30-02</li>
+                    <li>Domenica 18:30-00</li>
+                </ul>
+            </section>
+            <section>
+                <ul>
+                    <h3>Contatti:</h3>
+                    <li><i class='bx bxs-phone' ></i> 059634276</li>
+                    <li> <i class='bx bx-envelope' ></i>escape@matrix.it</li>
+                    <li><i class='bx bx-location-plus' ></i> Via Abà, 238, 41021 Fanano MO</li>
+                </ul>
+            </section>
+        </section>
+        <section class="footer-bottom">
+            <small>@ CConsulting. <span id="year"></span>, All right reserved</small>
+            <span class="footer-bottom-links">
+                <a href="#" title="Terms and services">Terms and Services</a>
+                <a href="#" title="Privacy Policy">Privacy Policy</a>
+            </span>
+        </section>
+    </div>
+    </footer>
+    <a href="https://api.whatsapp.com/send?phone=3515711373&text=Escape the matrix" class="wa-link">
+        <img src="CSS/media/assets/whatsapp.svg" alt="whatsapp">
+      </a>
+   <script src="JS/script.js"></script>
+</body>
+</html>

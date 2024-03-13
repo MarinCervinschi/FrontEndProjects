@@ -1,0 +1,137 @@
+footer {
+    padding: 16px;
+    position: relative;
+    bottom: 0px;
+    background-color: #1a1a1a;
+    color: white;
+    font-family: monospace;
+    min-width: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    z-index: 5;
+}
+
+.footer-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-collumns ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.footer-collumns ul a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-collumns ul a:hover{
+    text-decoration: underline;
+}
+.footer-collumns ul h3{
+    display: flex;
+    justify-content: start;
+}
+.footer-collumns ul li{
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+}
+.logoF {
+    width: 50px;
+    height: 50px;
+}
+.logoF:hover{
+    transform: scale(1.1);
+}
+
+.social-links {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+
+.social-links img{
+    width: 24px;
+    height: 24px;
+    transition: all 0.2s ease-in-out;
+}
+
+.social-links img:hover{
+    transform: scale(1.1);
+}
+
+.footer-top {
+    display: flex;
+    max-width: 800px;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 8px 0px;
+    justify-content: space-between;
+    border-bottom: 1px solid #595C61;
+}
+
+.footer-collumns {
+    padding-top: 24px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.footer-collumns h3{
+    color: white;
+    margin-top: 0;
+    margin-bottom: 25px;
+    font-size: 1.125rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.footer-collumns > section {
+    min-width: 180px;
+}
+
+.footer-bottom {
+    text-align: center;
+    border-top: 1px solid #595C61;
+    margin-top: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 8px;
+    padding: 16px 0px;
+    flex-wrap: wrap;
+}
+
+.footer-bottom-links {
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+@media (max-width: 800px) {
+    .footer-bottom-links {
+        margin: 0 auto;
+    }
+}
+
+.footer-bottom-links > a {
+    color: white;
+    text-decoration: none;
+}
+.footer-bottom-links > a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom > small {
+    font-size: 16px;
+    margin: 0 4px;
+}

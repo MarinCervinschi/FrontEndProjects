@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-svg" href="CSS/media/assets/logo.svg">
+    <link rel="icon" type="image/x-svg" href="CSS/media/assets/logo.svg">
+    <title>Pizze</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins&family=Bungee+Outline&dispaly=swap">
+    <link rel="stylesheet" href="CSS/footer.css">
+    <link rel="stylesheet" href="CSS/menu_pages.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header class="menu__wrapper">
+        <div class="menu__bar">
+            <a href="home.html" title="Logo">
+                <img src="CSS/media/assets/logo.svg" alt="logo" class="logo" width="180" height="180">
+            </a>
+            <img class="menu-icon" src="CSS/media/assets/burger-menu.svg" title='Burger Menu' alt='Burger Menu' onclick="toggleMenu(this)">
+            <ul class="navigation">
+                <li>
+                    <a href="about.html" title="ChiSiamo"><i class='bx bx-info-circle'></i> Chi Siamo</a>
+                </li>
+                <li>
+                    <a href="menu.html" title="Menu"><i class='bx bx-restaurant'></i> Menú</a>
+                </li>
+                <li>
+                    <a href="galleria.html" title="Galeria"><i class='bx bx-photo-album' ></i> Galleria</a>
+                </li>
+                <li>
+                    <a href="contatti.html" title="Contattaci"><i class='bx bxs-contact' ></i> Contatti</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <span class="background">
+        <div id="menu" class="menu hidden">
+            <h1>PIZZE</h1>
+            <h2 class="type">Pizze Classiche:</h2>
+            <div class="articles hidden">
+                <article>
+                    <figure>
+                        <img src="CSS/media/menu/pizze/stria.jpeg" alt="m">
+                    </figure>
+                    <div class="article-preview">
+                        <div class="name">
+                            <h2>Stria</h2>
+                            <h3>3,00€</h3>
+                        </div>
+                        <p>(pasta della pizza, olio, sale origano)</p>
+                    </div>
+                </article>
+                <article>
+                    <figure>
+                        <img src="CSS/media/menu/pizze/stria.jpeg" alt="m">
+                    </figure>
+                    <div class="article-preview">
+                        <div class="name">
+                            <h2>Stria con prosciutto crudo</h2>
+                            <h3>6,00€</h3>
+                        </div>
+                        <p>(pasta della pizza, olio, sale origano, prosciutto crudo di Parma)</p>
+                    </div>
+                </article>
+                <article>
+                    <figure>
+                        <img src="CSS/media/menu/pizze/marinara.jpeg" alt="m">
+                    </figure>
+                    <div class="article-preview">
+                        <div class="name">
+                            <h2>Marinara</h2>
+                            <h3>5,00€</h3>
+                        </div>
+                        <p>(pomodoro, aglio, prezzemolo)</p>
+                    </div>
+                </article>
+                <article>
+                    <figure>
+                        <img src="CSS/media/menu/pizze/rossa.jpeg" alt="m">
+                    </figure>
+                    <div class="article-preview">
+                        <div class="name">
+                            <h2>Rossa</h2>
+                            <h3>4,50€</h3>
+                        </div>
+                        <p>(pomodoro)</p>
+                    </div>
+                </article>
+                <article>
+                    <figure>
+                        <img src="CSS/media/menu/pizze/margherita.webp" alt="m">
+                    </figure>
+                    <div class="article-preview">
+                        <div class="name">
+                            <h2>Margherita</h2>
+                            <h3>6,00€</h3>
+                        </div>
+                        <p>(mozzarella, pomodoro)</p>
+                    </div>
+                </article>
+                <article>
+                    <figure>
+                        <img src="CSS/media/menu/pizze/bufala.jpeg" alt="m">
+                    </figure>
+                    <div class="article-preview">
+                        <div class="name">
+                            <h2>Margherita con bufala</h2>
+                            <h3>8,00€</h3>
+                        </div>
+                        <p>(mozzarella, pomodoro, mozzarella di bufala)</p>
+                    </div>
+                </article>
+                <article>
+                    <figure>
+                        <img src="CSS/media/menu/pizze/bufala.jpeg" alt="m">
+                    </figure>
+                    <div class="article-preview">
+                        <div class="name">
+                            <h2>Bufala</h2>
+                            <h3>8,50€</h3>
+                        </div>
+                        <p>(pomodoro, mozzarella di bufala)</p>
+                    </div>
+                </article>
+                <article>
+                    <figure>
+                        <img src="CSS/media/menu/pizze/margherita.webp" alt="m">
+                    </figure>
+                    <div class="article-preview">
+                         <div class="name">
+                            <h2>Bufala e pomodorini</h2>
+                            <h3>9,00€</h3>
+                            </div>
+                            <p>(pomodoro, mozzarella di bufala, pomodorini)</p>
+                    </div>
+                </article>
+                <article>
+                    <figure>
+                        <img src="CSS/media/menu/pizze/4stagioni.jpeg" alt="m">
+                    </figure>
+                    <div class="article-preview">
+                        <div class="name">
+                            <h2>4 Stagioni</h2>
+                            <h3>9,00€</h3>
+                        </div>
+                        <p>(pomodoro, mozzarella, funghi, salsiccia, carciofi, cotto)</p>
+                    </div>
+                </article>
+                <article>
+                    <figure>
+                        <img src="CSS/media/menu/pizze/margherita.webp" alt="m">
+                    </figure>
+                    <div class="article-preview">
+                        <div class="name">
+                            <h2>Olive</h2>
+                            <h3>7,50€</h3>
+                        </div>
+                        <p>(pomodoro, mozzarella, olive)</p>
+                    </div>
+                </article>
+                <article>
+                    <figure>
+                        <img style="background-color: black;" src="CSS/media/menu/pizze/cotto.webp" alt="m">
+                    </figure>
+                    <div class="article-preview">
+                        <div class="name">
+                            <h2>Prosciutto cotto</h2>
+                            <h3>8,00€</h3>
+                        </div>
+                        <p>(pomodoro, mozzarella, prosciutto cotto)</p>
+                    </div>
+                </article>
+                <article>
+                    <figure>
+                        <img style="background-color: black;" src="CSS/media/menu/pizze/cotto.webp" alt="m">
+                    </figure>
+                    <div class="article-preview">
+                        <div class="name">
+                            <h2>Pancetta</h2>
+                            <h3>8,50€</h3>
+                        </div>
+                        <p>(pomodoro, mozzarella, pancetta)</p>
+                    </div>
+                </article>
+                <article>
+                    <figure>
+                        <img style="background-color: black;" src="CSS/media/menu/pizze/diavola.png" alt="m">
+                    </figure>
+                    <div class="article-preview">
+                        <div class="name">
+                            <h2>Diavola</h2>
+                            <h3>8,50€</h3>
+                        </div>
+                        <p>(pomodoro, mozzarella, salame piccante)</p>
+                    </div>
+                </article>
+                <article>
+                    <figure>
+                        <img src="CSS/media/menu/pizze/wustel.jpeg" alt="m">
+                    </figure>
+                    <div class="article-preview">
+                        <div class="name">
+                            <h2>Wustel</h2>
+                            <h3>7,00€</h3>
+                        </div>
+                        <p>(pomodoro, mozzarella, wustel)</p>
+                    </div>
+                </article>
+                <article>
+                    <figure>
+                        <img src="CSS/media/menu/pizze/verdure.jpeg" alt="m">
+                    </figure>
+                    <div class="article-preview">
+                        <div class="name">
+                            <h2>Verdure</h2>
+                            <h3>8,50€</h3>
+                        </div>
+                        <p>(pomodoro, mozzarella, melanzane, zucchine, spinaci)</p>
+                    </div>
+                </article>
+                <article>
+                    <figure>
+                        <img src="CSS/media/menu/pizze/tonno.jpeg" alt="m">
+                    </figure>
+                    <div class="article-preview">
+                        <div class="name">
+                            <h2>Cipolla</h2>
+                            <h3>7,00€</h3>
+                        </div>
+                        <p>(pomodoro, mozzarella, cipolla)</p>
+                    </div>
+                </article>
+                <article>
+                    <figure>
+                        <img src="CSS/media/menu/pizze/tonno.jpeg" alt="m">
+                    </figure>
+                    <div class="article-preview">
+                        <div class="name">
+                            <h2>Tonno e cipolla</h2>
+                            <h3>8,50€</h3>
+                        </div>
+                        <p>(pomodoro, mozzarella, tonno, cipolla)</p>
+                    </div>
+                </article>
+                <article>
+                    <figure>
+                        <img src="CSS/media/menu/pizze/romana.jpeg" alt="m">
+                    </figure>
+                    <div class="article-preview">
+                        <div class="name">
+                            <h2>Romana</h2>
+                            <h3>8,50€</h3>
+                        </div>
+                        <p>(pomodoro, mozzarella, acciughe, capperi, origano)</p>
+                    </div>
+                </article>
+                <article>
+                    <figure>
+                        <img src="CSS/media/menu/pizze/napoli.jpeg" alt="m">
+                    </figure>
+                    <div class="article-preview">
+                        <div class="name">
+                            <h2>Napoli</h2>
+                            <h3>8,50€</h3>
+                        </div>
+                        <p>(pomodoro, mozzarella, acciughe, origano)</p>
+                    </div>
+                </article>
+                <article>
+                    <figure>
+                        <img src="CSS/media/menu/pizze/salsiccia.jpeg" alt="m">
+                    </figure>
+                    <div class="article-preview">
+                        <div class="name">
+                            <h2>Salsiccia</h2>
+                            <h3>8,00€</h3>
+                        </div>
+                        <p>(pomodoro, mozzarella, salsiccia)</p>
+                    </div>
+                </article>
+                <article>
+                    <figure>
+                        <img style="background-color: black;" src="CSS/media/menu/pizze/formaggi.png" alt="m">
+                    </figure>
+                    <div class="article-preview">
+                        <div class="name">
+                            <h2>4 Formaggi</h2>
+                            <h3>9,00€</h3>
+                        </div>
+                        <p>(pomodoro, mozzarella, gorgonzola, grana, stracchino)</p>
+                    </div>
+                </article>
+                <article>
+                    <figure>
+                        <img style="background-color: black;" src="CSS/media/menu/pizze/formaggi.png" alt="m">
+                    </figure>
+                    <div class="article-preview">
+                        <div class="name">
+                            <h2>Gorgonzola</h2>
+                            <h3>8,50€</h3>
+                        </div>
+                        <p>(pomodoro, mozzarella, gorgonzola)</p>
+                    </div>
+                </article>
+                <article>
+                    <figure>
+                        <img src="CSS/media/menu/pizze/margherita.webp" alt="m">
+                    </figure>
+                    <div class="article-preview">
+                        <div class="name">
+                            <h2>Funghi</h2>
+                            <h3>8,00€</h3>
+                        </div>
+                        <p>(pomodoro, mozzarella, funghi trifolati)</p>
+                    </div>
+                </article>
+                <article>
+                    <figure>
+                        <img src="CSS/media/menu/pizze/margherita.webp" alt="m">
+                    </figure>
+                    <div class="article-preview">
+                        <div class="name">
+                            <h2>Funghi porcini</h2>
+                            <h3>10,00€</h3>
+                        </div>
+                        <p>(pomodoro, mozzarella, funghi porcini)</p>
+                    </div>
+                </article>
+                <article>
+                    <figure>
+                        <img src="CSS/media/menu/pizze/carciofi.jpeg" alt="m">
+                    </figure>
+                    <div class="article-preview">
+                        <div class="name">
+                            <h2>Carciofini</h2>
+                            <h3>8,50€</h3>
+                        </div>
+                        <p>(pomodoro, mozzarella, carciofi)</p>
+                    </div>
+                </article>
+                <article>
+                    <figure>
+                        <img src="CSS/media/menu/pizze/calzone.jpeg" alt="m">
+                    </figure>
+                    <div class="article-preview">
+                        <div class="name">
+                            <h2>Calzone</h2>
+                            <h3>8,00€</h3>
+                        </div>
+                        <p>(pomodoro, mozzarella, prosciutto cotto)</p>
+                    </div>
+                </article>
+                <article>
+                    <figure>
+                        <img src="CSS/media/menu/pizze/calzone.jpeg" alt="m">
+                    </figure>
+                    <div class="article-preview">
+                        <div class="name">
+                            <h2>Calzone farcito</h2>
+                            <h3>9,00€</h3>
+                        </div>
+                        <p>(pomodoro, mozzarella, funghi, prosciutto cotto)</p>
+                    </div>
+                </article>
+            </div>
+            <br><br><br>
+            <!-- Pizze speciali-->
+            <h2 class="type">Pizze Speciali:</h2>
+            <div class="articles hidden">
+                <article>
+                    <figure>
+                        <img src="CSS/media/menu/pizze/m.avif" alt="m">
+                    </figure>
+                    <div class="article-preview">
+                        <div class="name">
+                            <h2>Cappuccetto Rosso</h2>
+                            <h3>6,50€</h3>
+                        </div>
+                        <p>(pomodoro, olio aromatizzato, parmigiano reggiano grattugiato)</p>
+                    </div>
+                </article>
+                <article>
+                    <figure>
+                        <img src="CSS/media/menu/pizze/m.avif" alt="m">
+                    </figure>
+                    <div class="article-preview">
+                        <div class="name">
+                            <h2>Stracchino e rucola</h2>
+                            <h3>8,50€</h3>
+                        </div>
+                        <p>(pomodoro, mozzarella, stracchino, rucola)</p>
+                    </div>
+                </article>
+                <article>
+                    <figure>
+                        <img src="CSS/media/menu/pizze/m.avif" alt="m">
+                    </figure>
+                    <div class="article-preview">
+                        <div class="name">
+                            <h2>Speck e rucola</h2>
+                            <h3>8,50€</h3>
+                        </div>
+                        <p>(pomodoro, mozzarella, speck, rucola)</p>
+                    </div>
+                </article>
+                <article>
+                    <figure>
+                        <img src="CSS/media/menu/pizze/m.avif" alt="m">
+                    </figure>
+                    <div class="article-preview">
+                        <div class="name">
+                            <h2>Golosa</h2>
+                            <h3>9,00€</h3>
+                        </div>
+                        <p>(pomodoro, mozzarella, funghi, salsiccia, olio aromatizzato)</p>
+                    </div>
+                </article>
+                <article>
+                    <figure>
+                        <img src="CSS/media/menu/pizze/m.avif" alt="m">
+                    </figure>
+                    <div class="article-preview">
+                        <div class="name">
+                            <h2>Fume</h2>
+                            <h3>9,00€</h3>
+                        </div>
+                        <p>(pomodoro, mozzarella, provola, speck)</p>
+                    </div>
+                </article>
+                <article>
+                    <figure>
+                        <img src="CSS/media/menu/pizze/m.avif" alt="m">
+                    </figure>
+                    <div class="article-preview">
+                        <div class="name">
+                            <h2>Farello</h2>
+                            <h3>9,00€</h3>
+                        </div>
+                        <p>(pomodoro, mozzarella, radicchio rosso, pancetta, grana a scaglie)</p>
+                    </div>
+                </article>
+                <article>
+                    <figure>
+                        <img src="CSS/media/menu/pizze/m.avif" alt="m">
+                    </figure>
+                    <div class="article-preview">
+                        <div class="name">
+                            <h2>Pazza</h2>
+                            <h3>9,00€</h3>
+                        </div>
+                        <p>(pomodoro, mozzarella, uovo, ingredienti a sorpresa)</p>
+                    </div>
+                </article>
+                <article>
+                    <figure>
+                        <img src="CSS/media/menu/pizze/m.avif" alt="m">
+                    </figure>
+                    <div class="article-preview">
+                        <div class="name">
+                            <h2>Fanano</h2>
+                            <h3>11,00€</h3>
+                        </div>
+                        <p>(pomodoro, mozzarella, funghi porcini, prosciutto crudo)</p>
+                    </div>
+                </article>
+                <article>
+                    <figure>
+                        <img src="CSS/media/menu/pizze/m.avif" alt="m">
+                    </figure>
+                    <div class="article-preview">
+                        <div class="name">
+                            <h2>Lunatika</h2>
+                            <h3>11,00€</h3>
+                        </div>
+                        <p>(pomodoro, burrata, lonzardo, aceto in perle; tutto a crudo)</p>
+                    </div>
+                </article>
+                <article>
+                    <figure>
+                        <img src="CSS/media/menu/pizze/m.avif" alt="m">
+                    </figure>
+                    <div class="article-preview">
+                        <div class="name">
+                            <h2>Mirtillo (IN STAGIONE)</h2>
+                            <h3>10,00€</h3>
+                        </div>
+                        <p>(mozzarella, pancetta, mirtilli)</p>
+                    </div>
+                </article>
+            </div>
+            <!-- Pizze bianche-->
+            <br><br><br>
+            <h2 class="type">Pizze Bianche:</h2>
+            <div class="articles hidden">
+                <article>
+                    <figure>
+                        <img src="CSS/media/menu/pizze/bianca.avif" alt="m">
+                    </figure>
+                    <div class="article-preview">
+                        <div class="name">
+                            <h2>Saracena</h2>
+                            <h3>7,50€</h3>
+                        </div>
+                        <p>(mozzarella, pomodorini, prezzemolo, aglio)</p>
+                    </div>
+                </article>
+                <article>
+                    <figure>
+                        <img src="CSS/media/menu/pizze/bianca.avif" alt="m">
+                    </figure>
+                    <div class="article-preview">
+                        <div class="name">
+                            <h2>Bianca menù</h2>
+                            <h3>8,50€</h3>
+                        </div>
+                        <p>(mozzarella, spinaci, pancetta)</p>
+                    </div>
+                </article>
+                <article>
+                    <figure>
+                        <img src="CSS/media/menu/pizze/bianca.avif" alt="m">
+                    </figure>
+                    <div class="article-preview">
+                        <div class="name">
+                            <h2>Vecchia Modena</h2>
+                            <h3>9,00€</h3>
+                        </div>
+                        <p>(mozzarella, grana a scaglie, aceto balsamico)</p>
+                    </div>
+                </article>
+                <article>
+                    <figure>
+                        <img src="CSS/media/menu/pizze/bianca.avif" alt="m">
+                    </figure>
+                    <div class="article-preview">
+                        <div class="name">
+                            <h2>Calzone Biancaneve</h2>
+                            <h3>8,00€</h3>
+                        </div>
+                        <p>(mozzarella, prosciutto cotto, parmigiano reggiano sopra, olio)</p>
+                    </div>
+                </article>
+            </div>
+            <br><br><br>
+        </div>
+    </span>
+    <footer>
+        <div class="footer-weapper">
+            <section class="footer-top">
+                <a href="home.html" title="Logo">
+                    <img src="CSS/media/assets/logo.svg" alt="bishop" class="logoF">
+                </a>
+                <span class="social-links">
+                    <a href="#">
+                        <img src="CSS/media/assets/instagram.svg" alt="instagram">
+                    </a>
+                    <a href="#">
+                        <img src="CSS/media/assets/twitterx.svg" alt="twitter">
+                    </a>
+                    <a href="#">
+                        <img src="CSS/media/assets/linkedin.svg" alt="linkedin" style="color: white;">
+                    </a>
+                    <a href="#">
+                        <img src="CSS/media/assets/facebook.svg" alt="facebook" style="color: white;">
+                    </a>
+                </span>
+            </section>
+            <section class="footer-collumns">
+                <section>
+                    <ul>
+                        <h3>Menú:</h3>
+                        <a href="pizze.html">
+                            <li>Pizze</li>
+                        </a>
+                        <a href="antipasti.html">
+                            <li>Antipasti</li>
+                        </a>
+                        <a href="primi.html">
+                            <li>Primi</li>
+                        </a>
+                        <a href="secondi.html">
+                            <li>Secondi</li>
+                        </a>
+                        <a href="bevande.html">
+                            <li>Bevande</li>
+                        </a>
+                        <a href="vini.html">
+                            <li>Vini</li>
+                        </a>
+                        <a href="dolci.html">
+                            <li>Dolci</li>
+                        </a>
+                    </ul>
+                </section>
+                <section>
+                    <ul>
+                        <h3>Orari:</h3>
+                        <li>Lunedí 18:30-00</li>
+                        <li>Martedí 18:30-00</li>
+                        <li>Mercoledí 18:30-00</li>
+                        <li>Giovedí 18:30-00</li>
+                        <li>Venerdí 18:30-04</li>
+                        <li>Sabato 18:30-02</li>
+                        <li>Domenica 18:30-00</li>
+                    </ul>
+                </section>
+                <section>
+                    <ul>
+                        <h3>Contatti:</h3>
+                        <li><i class='bx bxs-phone' ></i> 059634276</li>
+                        <li> <i class='bx bx-envelope' ></i>escape@matrix.it</li>
+                        <li><i class='bx bx-location-plus' ></i> Via Abà, 238, 41021 Fanano MO</li>
+                    </ul>
+                </section>
+            </section>
+            <section class="footer-bottom">
+                <small>@ CConsulting. <span id="year"></span>, All right reserved</small>
+                <span class="footer-bottom-links">
+                    <a href="#" title="Terms and services">Terms and Services</a>
+                    <a href="#" title="Privacy Policy">Privacy Policy</a>
+                </span>
+            </section>
+        </div>
+   </footer>
+   <a href="https://api.whatsapp.com/send?phone=3515711373&text=Escape the matrix" class="wa-link">
+    <img src="CSS/media/assets/whatsapp.svg" alt="whatsapp">
+  </a>
+   <script src="JS/script.js"></script>
+</body>
+</html>
