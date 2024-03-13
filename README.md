@@ -1,7 +1,7 @@
 
 # FrontEndProjects Repository
 
-This repository, **FrontEndProjects**, hosts a collection of MVP (Minimum Viable Product) projects focusing on the utilization of HTML, CSS, JavaScript, and a touch of PHP. These projects aim to showcase simple web pages for small local businesses, such as restaurants, automotive repair shops, and tire service centers.
+This repository hosts a collection of MVP (Minimum Viable Product) projects focusing on the utilization of HTML, CSS, JavaScript, and a touch of PHP. These projects aim to showcase simple web pages for small local businesses, such as restaurants, automotive repair shops, and tire service centers.
 
 ## Project Descriptions
 
