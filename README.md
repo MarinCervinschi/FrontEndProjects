@@ -1,4 +1,10 @@
 
+<div align="left">
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=MarinCervinschi.MatrixCalculator&"  />
+</div>
+
+###
+
 # FrontEndProjects Repository
 
 This repository hosts a collection of MVP (Minimum Viable Product) projects focusing on the utilization of HTML, CSS, JavaScript, and a touch of PHP. These projects aim to showcase simple web pages for small local businesses, such as restaurants, automotive repair shops, and tire service centers.
